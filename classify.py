@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     naive_bayes.load(DUMP_DIR)
 
-    fileObj = codecs.open(OUTPUT_DATA, 'w+', 'utf_8_sig')
+    fileObj = codecs.open(OUTPUT_DATA, 'w+', 'utf_8')
     n = len(content)
     start = datetime.datetime.now()
 
